@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SPImage_Example' do
+  pod 'SPImage', :path => '../'
+
+  target 'SPImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
