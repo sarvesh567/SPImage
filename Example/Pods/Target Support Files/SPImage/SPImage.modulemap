@@ -1,0 +1,6 @@
+framework module SPImage {
+  umbrella header "SPImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
